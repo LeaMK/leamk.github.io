@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>LMK<br /></h1>
+								<h2>PORTFOLIO<br /></h2>
+							</header>
+							<hr/>
+							<article class="">
+									<img src="images/chase.png" alt="" class="center"/>
+							</article>
+
+							<!--<header>
+									<h2>POLYFOX  Gameplay<br /></h2>
+							</header> -->
+
+							<article class="">
+									<video width="320" height="240" controls class="center">
+											<source src="images/Gameplay2.mp4" type="video/mp4" >
+										  </video>
+							</article>
+
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img id="fox1" src="images/frun.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="fox2" src="images/fdrink.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="fox3" src="images/fdead.tiff" alt="" />
+									</span>
+								</article>
+							</section>
+
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img id="bunny1" src="images/brun.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="bunny2" src="images/bchase.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="bunny3" src="images/bdead.tiff" alt="" />
+									</span>
+								</article>
+							</section>
+
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img id="wolf1" src="images/wrun.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="wolf2" src="images/wavoid.tiff" alt="" />
+									</span>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="wolf3" src="images/wbite.tiff" alt="" />
+									</span>
+								</article>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>Design: HTML5 UP</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+					$(function() {
+						$("#fox1").hover(
+							function() {
+								$(this).attr("src", "images/Fox-running1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/frun.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#fox2").hover(
+							function() {
+								$(this).attr("src", "images/Fox-drinking1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/fdrink.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#fox3").hover(
+							function() {
+								$(this).attr("src", "images/Fox-death1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/fdead.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#bunny1").hover(
+							function() {
+								$(this).attr("src", "images/Bunny-running1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/brun.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#bunny2").hover(
+							function() {
+								$(this).attr("src", "images/Bunny-chased1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/bchase.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#bunny3").hover(
+							function() {
+								$(this).attr("src", "images/Bunny-eaten2.gif");
+							},
+							function() {
+								$(this).attr("src", "images/bdead.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#wolf1").hover(
+							function() {
+								$(this).attr("src", "images/Wolf-running1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/wrun.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#wolf2").hover(
+							function() {
+								$(this).attr("src", "images/Wolf-avoid1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/wavoid.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+			<script>
+					$(function() {
+						$("#wolf3").hover(
+							function() {
+								$(this).attr("src", "images/Wolf-bite1.gif");
+							},
+							function() {
+								$(this).attr("src", "images/wbite.tiff");
+							}                         
+						);                  
+					});
+			</script>
+
+	</body>
+</html>
